@@ -14,8 +14,9 @@ class Stock():
 
 		self.min_price = round(self.price_buy * (1 + self.fee_rate) / (1 - self.fee_rate), 2) + 0.01
 
-		print("\tprofit = {0}\n\tfee = {1}\n\t% = {2}\n\tmin price = {3}"
-				.format(self.profit, self.fee, self.prc, self.min_price))
+		print("\tprofit = {0}\n\tfee = {1}\n\t% = {2}\n\tmin price = {3}".format(self.profit, self.fee, self.prc, self.min_price))
 
-# myStock = Stock(152.31, 152, 120, 0.05 / 100)
-myStock = Stock(475.5, 315, 10, 0.025 / 100)
+myStock = Stock(385, 500, 18, 0.025 / 100)
+
+#дозакуп ниже 449
+#продал 20 по 385
